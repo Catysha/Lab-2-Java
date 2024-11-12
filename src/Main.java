@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Максимальная сумма строки с нечетными элементами: " + rowMaxSums);
         int colUnique = matrix.countUniqueColumns();
         System.out.println("Количество столбцов матрицы из попарно различных чисел: " + colUnique);
+        matrix.sortRowsByMaxElement();
         System.out.println("Упорядоченные по неубыванию наибольших элементов строки матрицы:");
         matrix.print();
     }
